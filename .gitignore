@@ -25,3 +25,13 @@ dist-ssr
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
